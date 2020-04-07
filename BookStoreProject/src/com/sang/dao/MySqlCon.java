@@ -3,7 +3,7 @@ package com.sang.dao;
 import java.sql.*;  
 public class MySqlCon{  
 	public static void main(String args[]){
-		
+		//to get the connection
 		try{  
 		Class.forName("com.mysql.cj.jdbc.Driver");  
 		String connString="jdbc:mysql://localhost:3306/service?useTimezone=true&serverTimezone=UTC";
